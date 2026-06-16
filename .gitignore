@@ -1,1 +1,21 @@
+# PlatformIO
+.pio/
+.vscode/
 
+# Build files
+build/
+*.o
+*.a
+*.elf
+*.bin
+*.map
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
