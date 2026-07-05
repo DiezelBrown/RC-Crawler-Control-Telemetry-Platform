@@ -11,7 +11,7 @@ A custom 1/10 scale RC crawler designed to demonstrate embedded systems, wireles
 
 ## Technologies
 
-- C
+- C++
 - ESP32
 - Bluetooth/Wi-Fi
 - Embedded systems
