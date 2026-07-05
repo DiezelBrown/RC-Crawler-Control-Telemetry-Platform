@@ -27,4 +27,14 @@ A custom 1/10 scale RC crawler designed to demonstrate embedded systems, wireles
 
 ## Status
 
-🚧 In Progress – Summer 2026
+## Current Status
+
+- ✅ RC crawler chassis completed
+- ✅ PlatformIO project created
+- ✅ Telemetry software architecture implemented
+- ✅ Simulated telemetry module completed
+- 🔄 Waiting for USB data cable to begin ESP32 hardware testing
+- ⏳ Battery voltage sensor integration
+- ⏳ Hall effect RPM sensor integration
+- ⏳ BNO055 IMU integration
+- ⏳ Bluetooth mobile dashboard
