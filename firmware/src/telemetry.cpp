@@ -1,12 +1,14 @@
 #include <Arduino.h>
 #include "telemetry.h"
+#include "battery.h"
 
 TelemetryData getSimulatedTelemetryData(){
     TelemetryData data;
-    data.batteryVoltage = 7.8;
+    data.batteryVoltage = readBatteryVoltage();
     data.motorTempF = 95.0;
     data.rpm = 850;
     data.speedMph = 4.2;
+    data.pitch = 12.5;
     data.roll = 3.4;
     
     return data;

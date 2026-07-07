@@ -1,12 +1,17 @@
 #include <Arduino.h>
+#include "telemetry.h"
+#include "battery.h"
 
 void setup() {
   Serial.begin(115200);
+  initializeBatterySensor();
+  
   Serial.println("Telemetry System Started");
-
 }
 
 void loop() {
-  Serial.println("ESP32 Running...");
+  TelemetryData telemetry = getSimulatedTelemetryData();
+  printTelemetryData(telemetry);
+
   delay(1000);
 }
