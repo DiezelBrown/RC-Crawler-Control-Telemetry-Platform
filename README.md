@@ -1,40 +1,62 @@
-# Custom-RC-Crawler-Telemetry-System-
-A custom 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and hardware integration.
+RC Crawler Telemetry Platform
 
-## Features
+A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and real-time vehicle monitoring. The platform combines custom mechanical fabrication with ESP32 firmware, multiple onboard sensors, and Bluetooth Low Energy (BLE) communication to provide live telemetry for off-road robotic vehicles.
 
-- Custom-fabricated steel chassis
-- Brushless motor and ESC
-- SCX10-style drivetrain and suspension
-- ESP32-based telemetry system
-- Real-time monitoring of RPM, battery voltage, temperature, and vehicle performance
+Features
+✅ Custom-fabricated steel chassis
+✅ ESP32 embedded telemetry platform
+✅ Battery voltage monitoring
+✅ Motor temperature monitoring
+✅ Wheel RPM measurement
+✅ Vehicle speed calculation
+✅ BNO055 IMU (Pitch & Roll)
+✅ Bluetooth Low Energy (BLE) telemetry
+🔄 Mobile application (In Progress)
+🔄 Custom PCB (Planned)
+🔄 Operator-assisted recovery mode (Planned)
+Technologies
+C++
+ESP32
+PlatformIO
+Bluetooth Low Energy (BLE)
+Embedded Systems
+Sensor Integration
+I²C
+OneWire
+Hall Effect Sensors
+MIG Welding
+Current Telemetry
+Sensor	Status
+Battery Voltage	✅
+Motor Temperature	✅
+Wheel RPM	✅
+Vehicle Speed	✅
+Pitch	✅
+Roll	✅
+Bluetooth Communication	✅
+Repository Structure
+firmware/      ESP32 firmware
+hardware/      Parts list, wiring diagrams, pinout
+docs/          Development updates and testing
+photos/        Build photos and demonstrations
+Project Status
+Completed
+✅ Custom steel chassis
+✅ ESP32 firmware architecture
+✅ Battery voltage sensor
+✅ DS18B20 temperature sensor
+✅ Hall-effect RPM sensor
+✅ BNO055 IMU integration
+✅ Bluetooth Low Energy communication
+In Progress
+🔄 Mobile telemetry application
+Planned
+⏳ Custom KiCad PCB
+⏳ Data logging
+⏳ Operator-assisted recovery mode
+Future Goals
+Develop a cross-platform mobile telemetry application.
+Design a custom PCB to replace the breadboard prototype.
+Implement Bluetooth-based operator controls.
+Develop an operator-assisted recovery mode that can attempt to free the crawler when it becomes stuck.
 
-## Technologies
-
-- C++
-- ESP32
-- Bluetooth/Wi-Fi
-- Embedded systems
-- Sensor integration
-- MIG welding
-
-## Repository Structure
-
-- `firmware/` – ESP32 source code
-- `hardware/` – Parts list and wiring information
-- `docs/` – Design notes and testing results
-- `photos/` – Build progress images
-
-## Status
-
-## Current Status
-
-- ✅ RC crawler chassis completed
-- ✅ PlatformIO project created
-- ✅ Telemetry software architecture implemented
-- ✅ Simulated telemetry module completed
-- 🔄 Waiting for USB data cable to begin ESP32 hardware testing
-- ⏳ Battery voltage sensor integration
-- ⏳ Hall effect RPM sensor integration
-- ⏳ BNO055 IMU integration
-- ⏳ Bluetooth mobile dashboard
