@@ -1,61 +1,104 @@
-RC Crawler Telemetry Platform
+# RC Crawler Telemetry Platform
 
-A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and real-time vehicle monitoring. The platform combines custom mechanical fabrication with ESP32 firmware, multiple onboard sensors, and Bluetooth Low Energy (BLE) communication to provide live telemetry for off-road robotic vehicles.
+A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and real-time vehicle monitoring. The platform combines custom mechanical fabrication with ESP32 firmware, onboard sensors, and Bluetooth Low Energy (BLE) communication.
 
-Features
-✅ Custom-fabricated steel chassis
-✅ ESP32 embedded telemetry platform
-✅ Battery voltage monitoring
-✅ Motor temperature monitoring
-✅ Wheel RPM measurement
-✅ Vehicle speed calculation
-✅ BNO055 IMU (Pitch & Roll)
-✅ Bluetooth Low Energy (BLE) telemetry
-🔄 Mobile application (In Progress)
-🔄 Custom PCB (Planned)
-🔄 Operator-assisted recovery mode (Planned)
-Technologies
-C++
-ESP32
-PlatformIO
-Bluetooth Low Energy (BLE)
-Embedded Systems
-Sensor Integration
-I²C
-OneWire
-Hall Effect Sensors
-MIG Welding
-Current Telemetry
-Sensor	Status
-Battery Voltage	✅
-Motor Temperature	✅
-Wheel RPM	✅
-Vehicle Speed	✅
-Pitch	✅
-Roll	✅
-Bluetooth Communication	✅
-Repository Structure
-firmware/      ESP32 firmware
-hardware/      Parts list, wiring diagrams, pinout
-docs/          Development updates and testing
-photos/        Build photos and demonstrations
-Project Status
-Completed
-✅ Custom steel chassis
-✅ ESP32 firmware architecture
-✅ Battery voltage sensor
-✅ DS18B20 temperature sensor
-✅ Hall-effect RPM sensor
-✅ BNO055 IMU integration
-✅ Bluetooth Low Energy communication
-In Progress
-🔄 Mobile telemetry application
-Planned
-⏳ Custom KiCad PCB
-⏳ Data logging
-⏳ Operator-assisted recovery mode
-Future Goals
-Develop a cross-platform mobile telemetry application.
-Design a custom PCB to replace the breadboard prototype.
-Implement Bluetooth-based operator controls.
-Develop an operator-assisted recovery mode that can attempt to free the crawler when it becomes stuck.
+---
+
+## Features
+
+- ✅ Custom-fabricated steel chassis
+- ✅ ESP32 embedded telemetry platform
+- ✅ Battery voltage monitoring
+- ✅ Motor temperature monitoring
+- ✅ Wheel RPM measurement
+- ✅ Vehicle speed calculation
+- ✅ BNO055 IMU (Pitch & Roll)
+- ✅ Bluetooth Low Energy (BLE)
+- 🔄 Mobile application *(In Progress)*
+- ⏳ Custom KiCad PCB
+- ⏳ Operator-assisted recovery mode
+
+---
+
+## Technologies
+
+- C++
+- ESP32
+- PlatformIO
+- Bluetooth Low Energy (BLE)
+- Embedded Systems
+- Sensor Integration
+- I²C
+- OneWire
+- Hall Effect Sensor
+- MIG Welding
+
+---
+
+## Current Telemetry
+
+| Feature | Status |
+|----------|--------|
+| Battery Voltage | ✅ |
+| Motor Temperature | ✅ |
+| Wheel RPM | ✅ |
+| Vehicle Speed | ✅ |
+| Pitch | ✅ |
+| Roll | ✅ |
+| Bluetooth | ✅ |
+
+---
+
+## Repository Structure
+
+```text
+firmware/
+├── ESP32 firmware
+
+hardware/
+├── BOM.md
+├── HARDWARE.md
+├── pinout.md
+└── wiring.md
+
+docs/
+├── Development updates
+└── Testing results
+
+photos/
+├── Build photos
+└── Demonstrations
+```
+
+---
+
+## Current Status
+
+### Completed
+
+- ✅ Steel chassis
+- ✅ ESP32 firmware
+- ✅ Battery voltage sensor
+- ✅ DS18B20 temperature sensor
+- ✅ Hall-effect RPM sensor
+- ✅ BNO055 IMU
+- ✅ Bluetooth Low Energy
+
+### In Progress
+
+- 🔄 Mobile telemetry application
+
+### Planned
+
+- ⏳ Custom KiCad PCB
+- ⏳ Operator-assisted recovery mode
+- ⏳ Data logging
+
+---
+
+## Future Goals
+
+- Develop a cross-platform mobile application.
+- Design a custom KiCad PCB.
+- Implement Bluetooth-based operator controls.
+- Develop an operator-assisted recovery mode.
