@@ -14,8 +14,8 @@ A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, w
 - ✅ Vehicle speed calculation
 - ✅ BNO055 IMU (Pitch & Roll)
 - ✅ Bluetooth Low Energy (BLE)
-- 🔄 Mobile application *(In Progress)*
-- ⏳ Custom KiCad PCB
+- ✅ Mobile application *(In Progress)*
+- 🔄  Custom KiCad PCB
 - ⏳ Operator-assisted recovery mode
 
 ---
