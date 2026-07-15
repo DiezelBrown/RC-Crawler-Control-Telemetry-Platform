@@ -1,9 +1,9 @@
 # RC Crawler Telemetry Platform
 <p align="center">
-  <img src="photos/IMG_3851.jpeg" alt="RC Crawler Telemetry Platform" width="850">
+  <img src="photos/IMG_3851.jpeg" alt="RC Crawler Telemetry Platform" width="600">
 </p>
 
-A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and real-time vehicle monitoring. The platform combines custom mechanical fabrication with ESP32 firmware, onboard sensors, and Bluetooth Low Energy (BLE) communication.
+A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and real-time vehicle monitoring. The platform combines custom mechanical fabrication with ESP32 firmware, onboard sensors, and Bluetooth Low Energy (BLE) communication. This Project is currently under active developement.
 
 ---
 
