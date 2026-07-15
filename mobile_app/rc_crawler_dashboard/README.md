@@ -1,17 +1,39 @@
-# rc_crawler_dashboard
+# RC Crawler Telemetry Dashboard
 
-A new Flutter project.
+Flutter mobile application for monitoring the Custom RC Crawler Telemetry System in real time.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Live Bluetooth Low Energy (BLE) connection
+- Vehicle speed display
+- Wheel RPM monitoring
+- Battery voltage
+- Motor temperature
+- Pitch and roll angle visualization
+- Connection status indicator
 
-A few resources to get you started if this is your first Flutter project:
+## Hardware
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- ESP32
+- BNO055 IMU
+- Hall Effect Sensor
+- DS18B20 Temperature Sensor
+- Battery Voltage Monitor
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies
+
+- Flutter
+- Dart
+- Bluetooth Low Energy (BLE)
+
+## Status
+
+🚧 In Development
+
+Current version supports live telemetry from the ESP32.
+
+Future updates:
+- Data logging
+- Battery percentage
+- Multiple telemetry pages
+- Firmware updates over BLE
