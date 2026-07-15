@@ -2,7 +2,7 @@
 <table align="center">
 <tr>
 <td align="center">
-<img src="photos/IMG_3851.jpeg" alt="RC Crawler" width="420"><br>
+<img src="photos/IMG_3851.jpeg" alt="RC Crawler" width="250"><br>
 <b>Custom RC Crawler</b>
 </td>
 
@@ -12,6 +12,7 @@
 </td>
 </tr>
 </table>
+
 A custom-built 1/10 scale RC crawler designed to demonstrate embedded systems, wireless telemetry, and real-time vehicle monitoring. The platform combines custom mechanical fabrication with ESP32 firmware, onboard sensors, and Bluetooth Low Energy (BLE) communication. This Project is currently under active developement.
 
 ---
