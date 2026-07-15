@@ -1,4 +1,5 @@
-# RC Crawler Telemetry Platform *Under development
+# RC Crawler Telemetry Platform
+**Project Status:** 🚧 Active Development
 <table align="center">
 <tr>
 <td align="center">
