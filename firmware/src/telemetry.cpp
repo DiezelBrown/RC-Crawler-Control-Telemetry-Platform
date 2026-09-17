@@ -1,16 +1,19 @@
 #include <Arduino.h>
 #include "telemetry.h"
 #include "battery.h"
+#include "temperature.h"
+#include "hall.h"
+#include "imu.h"
 
 TelemetryData getTelemetryData(){
     TelemetryData data;
     data.batteryVoltage = readBatteryVoltage();
-    data.motorTempF = 95.0;
-    data.rpm = 850;
-    data.speedMph = 4.2;
-    data.pitch = 12.5;
-    data.roll = 3.4;
-    
+    data.motorTempF = readMotorTemperature();
+    data.rpm = readMotorRPM();
+    data.speedMph = readVehicleSpeed();
+    data.pitch = readVehiclePitch();
+    data.roll = readVehicleRoll();
+
     return data;
 }
 

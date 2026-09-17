@@ -12,7 +12,7 @@ struct TelemetryData
     float roll;
 };
 
-TelemetryData getSimulatedTelemetryData();
+TelemetryData getTelemetryData();
 void printTelemetryData(const TelemetryData& data);
 
 #endif // TELEMETRY_H
