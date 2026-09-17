@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  TelemetryData telemetry = getSimulatedTelemetryData();
+  TelemetryData telemetry = getTelemetryData();
   printTelemetryData(telemetry);
 
   delay(1000);

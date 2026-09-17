@@ -2,7 +2,7 @@
 #include "telemetry.h"
 #include "battery.h"
 
-TelemetryData getSimulatedTelemetryData(){
+TelemetryData getTelemetryData(){
     TelemetryData data;
     data.batteryVoltage = readBatteryVoltage();
     data.motorTempF = 95.0;
